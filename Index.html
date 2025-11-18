@@ -1,0 +1,233 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="min-h-screen">
+      <header
+        class="sticky top-0 z-50 flex bg-white/70 backdrop-blur-md border-b border-orange-300 shadow-lg p-2"
+        style="transform: none"
+      >
+        <div class="w-full flex items-center justify-between">
+          <button
+            class="text-black text-xl flex justify-self-start p-4 cursor-pointer"
+          >
+            Haven<span class="font-bold text-xl text-red-500">.</span>
+          </button>
+          <div class="flex">
+            <ol class="flex items-center justify-center gap-6 p-4 w-auto">
+              <li class="cursor-pointer hover:text-orange-500">Home</li>
+              <li class="cursor-pointer hover:text-orange-500">About</li>
+              <li class="cursor-pointer hover:text-orange-500">Catalog</li>
+              <li class="cursor-pointer hover:text-orange-500">contact</li>
+            </ol>
+          </div>
+          <button class="p-2 mr-4 boreder-white/20 shadow-lg rounded-full">
+            <img
+              src="icons8-shopping-bag-48.png"
+              alt=""
+              width="30"
+              height="30 rounded-full shadow-lg p-4 border border-white/20"
+            />
+          </button>
+        </div>
+      </header>
+      <section>
+        <section
+          class="relative h-screen flex items-center justify-center overflow-hidden"
+          id="home"
+        >
+          <div
+            class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style="
+              background-image: url('https://plus.unsplash.com/premium_photo-1706140675031-1e0548986ad1?ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODB8fGZ1cm5pdHVyZSUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&amp;auto=format&amp;fit=crop&amp;q=60&amp;w=500');
+            "
+          ></div>
+          <div
+            class="absolute inset-0 bg-linear-to-b from-black/80 to-white/30 backdrop-blur-[1px]"
+          ></div>
+          <div class="relative z-10 text-center text-white px-4">
+            <h1
+              class="text-5xl md:text-7xl font-light mb-6"
+              style="opacity: 1; transform: none"
+            >
+              Elevate your Space
+            </h1>
+            <p
+              class="text-xl md:text-2xl font-light mb-8 max-w-2xl mx-auto"
+              style="opacity: 1; transform: none"
+            >
+              Discover furniture that brings peace and simplicity to your space
+            </p>
+            <button
+              class="bg-orange-500/90 backdrop-blur-sm text-white px-8 py-4 rounded-full font-light text-lg flex items-center gap-2 mx-auto border border-white/20 shadow-2xl hover:cursor-pointer"
+              tabindex="0"
+              style="opacity: 1; transform: none"
+            >
+              Explore Collection<img src="icons8-arrow-right-24.png" />
+            </button>
+          </div>
+          <div
+            class="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+            style="opacity: 1"
+          >
+            <div
+              class="w-6 h-10 border-2 border-white rounded-full flex justify-center hover:cursor-pointer"
+            >
+              <div class="w-1 h-3 bg-white rounded-full mt-2"></div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="py-20 bg-white/50 mx-auto px-8 shadow-lg">
+        <div class="mb-16">
+          <h2
+            class="flex items-center justify-center underline decoration-orange-500 text-4xl mb-4"
+          >
+            About Haven
+          </h2>
+          <p class="text-gray-600 text-lg max-w-2xl mx-auto text-center">
+            We believe in creating furniture that brings peace and simplicity to
+            your living spaces. Our minimalist designs are crafted to stand the
+            test of time, both in quality and style.
+          </p>
+        </div>
+        <div class="grid grid-cols-3 gap-6">
+          <div class="text-center p-6">
+            <div
+              class="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg"
+            >
+              <img src="icons8-award-48.png" alt="" />
+            </div>
+            <h3 class="font-light text-2xl mb-2 text-gray-900">
+              Premium Quality
+            </h3>
+            <p class="text-center text-gray-600 leading-relaxed">
+              Every piece is crafted with the finest materials and attention to
+              detail.
+            </p>
+          </div>
+          <div class="text-center p-6">
+            <div
+              class="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg"
+            >
+              <img src="" alt="" />
+            </div>
+            <h3 class="font-light text-2xl mb-2 text-gray-900">
+              For Modern Living
+            </h3>
+            <p class="text-center text-gray-600 leading-relaxed">
+              Designed for contemporary lifestyles that value simplicity and
+              functionality.
+            </p>
+          </div>
+          <div class="text-center p-6">
+            <div
+              class="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg"
+            >
+              <img src="icons8-love-24.png" alt="" />
+            </div>
+            <h3 class="font-light text-2xl mb-2 text-gray-900">
+              Made with Love
+            </h3>
+            <p class="text-center text-gray-600 leading-relaxed">
+              We pour passion into every design to create pieces you'll love for
+              years.
+            </p>
+          </div>
+        </div>
+        <div class="mt-16 flex justify-evenly items-center">
+          <div>
+            <h1
+              class="text-3xl text-orange-500 mb-2 flex justify-center items-center"
+            >
+              500+
+            </h1>
+            <p class="text-gray-500">Happy Customers</p>
+          </div>
+          <div>
+            <h1 class="text-3xl text-orange-500 mb-2 flex justify-center">3</h1>
+            <p class="text-gray-500">Years Experience</p>
+          </div>
+          <div>
+            <h1 class="text-3xl text-orange-500 mb-2 flex justify-center">
+              50+
+            </h1>
+            <p class="text-gray-500">Unique Designs</p>
+          </div>
+          <div>
+            <h1 class="text-3xl text-orange-500 mb-2 flex justify-center">
+              24/7
+            </h1>
+            <p class="text-gray-500">Customer Support</p>
+          </div>
+        </div>
+      </section>
+      <section class="py-8 px-10 mx-auto">
+        <div class="mx-auto py-8 px-4">
+          <section>
+            <h1
+              class="pt-20 text-4xl underline decoration-orange-500 text-center"
+            >
+              OUR COLLECTION
+            </h1>
+          </section>
+        </div>
+        <div
+          class="bg-white/70 backdrop-blur-md rounded-2xl p-6 mb-8 border border-white/20 shadow-lg"
+          style="opacity: 1; transform: none"
+        >
+          <div class="flex justify-between">
+            <div class="flex gap-4 items-center">
+              <div class="gap-2 flex">
+                <img src="icons8-filter-50 (1).png" class="h-6 w-6" alt="" />
+                <p>filter:</p>
+              </div>
+              <select name="All" id="">
+                <option value="all">All</option>
+                <option value="chairs">chairs</option>
+                <option value="Desks">Desks</option>
+                <option value="Sofas">Sofas</option>
+                <option value="Storage">Storage</option>
+                <option value="Beds">Beds</option>
+                <option value="Tables">Tables</option>
+              </select>
+              <select name="All" id="">
+                <option value="all">All</option>
+                <option value="oak">Oak</option>
+                <option value="Walnut">Walnut</option>
+                <option value="white">White</option>
+                <option value="Black">Black</option>
+                <option value="Gray">Gray</option>
+                <option value="clear">Clear</option>
+              </select>
+              <p>Prices: <span class="text-orange-500">$0 - $2000</span></p>
+            </div>
+            <div class="flex gap-2 items-center">
+              <p>Sort by:</p>
+              <select name="Newest" id="">
+                <option value="Newest">Newest</option>
+                <option value="Popular">Popular</option>
+                <option value="Price:Low to High">Price:Low to High</option>
+                <option value="Price:High to Low">Price:High to Low</option>
+              </select>
+            </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-3 gap-8">
+              <div
+                class="group bg-white/70 backdrop-blur-md rounded-2xl overflow-hidden border border-white/20 shadow-xl hover:shadow-2xl transition-all duration-300"
+              >
+              <img src="https://unsplash.com/photos/KaMupNSSQJI" class="w-full h-64" alt="">
+              <h3>Nordic Oak Chair</h3>
+              <p>A minimalist chair crafted from solid oak with ergonomic design for maximum comfort.</p>
+            </div>
+
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
