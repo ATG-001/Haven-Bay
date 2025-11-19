@@ -19,10 +19,10 @@
           </button>
           <div class="flex">
             <ol class="flex items-center justify-center gap-6 p-4 w-auto">
-              <li class="cursor-pointer hover:text-orange-500">Home</li>
-              <li class="cursor-pointer hover:text-orange-500">About</li>
-              <li class="cursor-pointer hover:text-orange-500">Catalog</li>
-              <li class="cursor-pointer hover:text-orange-500">contact</li>
+              <li class="cursor-pointer hover:text-orange-500"><a href="#Home">Home</a></li>
+              <li class="cursor-pointer hover:text-orange-500"><a href="#About">About</a></li>
+              <li class="cursor-pointer hover:text-orange-500"><a href="#Catalog">Catalog</a></li>
+              <li class="cursor-pointer hover:text-orange-500"><a href="#Contact">Contact</a></li>
             </ol>
           </div>
           <button class="p-2 mr-4 boreder-white/20 shadow-lg rounded-full">
@@ -35,10 +35,10 @@
           </button>
         </div>
       </header>
-      <section>
+      <section">
         <section
           class="relative h-screen flex items-center justify-center overflow-hidden"
-          id="home"
+          id="Home"
         >
           <div
             class="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -82,7 +82,7 @@
           </div>
         </section>
       </section>
-      <section class="py-20 bg-white/50 mx-auto px-8 shadow-lg">
+      <section class="py-20 bg-white/50 mx-auto px-8 shadow-lg transition-all duration-500 ease-linear" id="About" >
         <div class="mb-16">
           <h2
             class="flex items-center justify-center underline decoration-orange-500 text-4xl mb-4"
@@ -166,7 +166,7 @@
           </div>
         </div>
       </section>
-      <section class="py-8 px-10 mx-auto">
+      <section class="py-8 px-10 mx-auto" id="Catalog">
         <div class="mx-auto py-8 px-4">
           <section>
             <h1
@@ -215,18 +215,206 @@
                 <option value="Price:High to Low">Price:High to Low</option>
               </select>
             </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-3 gap-8">
+          <div
+            class="group bg-white/70 backdrop-blur-md rounded-2xl overflow-hidden border border-white/20 shadow-xl hover:shadow-2xl transition-all duration-300"
+          >
+          <div>
+            <img
+              src="https://unsplash.com/photos/KaMupNSSQJI"
+              class="w-full h-64"
+              alt=""
+            />
+            <p class="absolute top-4 left-4 bg-orange-500 text-white rounded-full px-4 py-1">New</p>
+            <p class="absolute top-4 left-23 bg-blue-500 text-white rounded-full px-4 py-1">Popular</p>
+            </div>
+            <div class="p-6">
+              <h3 class="text-gray-600 text-xl mb-2">Nordic Oak Chair</h3>
+              <p class="text-gray-600 mb-4">
+                A minimalist chair crafted from solid oak with ergonomic design
+                for maximum comfort.
+              </p>
+            </div>
+            <div class="flex items-center justify-between px-6 pb-4">
+              <p class="text-2xl text-orange-500">$299.99</p>
+              <button
+                class="bg-orange-500 text-white py-2 px-4 rounded-full shadow-xl hover:bg-orange-600 border border-white/20 shadow-3xl"
+              >
+                Add to Cart
+              </button>
             </div>
           </div>
-          <div class="grid grid-cols-3 gap-8">
-              <div
-                class="group bg-white/70 backdrop-blur-md rounded-2xl overflow-hidden border border-white/20 shadow-xl hover:shadow-2xl transition-all duration-300"
-              >
-              <img src="https://unsplash.com/photos/KaMupNSSQJI" class="w-full h-64" alt="">
-              <h3>Nordic Oak Chair</h3>
-              <p>A minimalist chair crafted from solid oak with ergonomic design for maximum comfort.</p>
+          <div
+            class="group bg-white/70 backdrop-blur-md rounded-2xl overflow-hidden border border-white/20 shadow-xl hover:shadow-2xl transition-all duration-300"
+          >
+          <div>
+            <img
+              src="https://unsplash.com/photos/KaMupNSSQJI"
+              class="w-full h-64"
+              alt=""
+            />
+            <p class="absolute top-4 left-4 bg-orange-500 text-white rounded-full px-4 py-1">New</p>
             </div>
-            <div></div>
+            <div class="p-6">
+              <h3 class="text-gray-600 text-xl mb-2">Minimalist Sofa</h3>
+              <p class="text-gray-600 mb-4">
+                Low-profile sofa with premium fabric and memory foam cushions.
+              </p>
+            </div>
+            <div class="flex items-center justify-between px-6 pb-4">
+              <p class="text-2xl text-orange-500">$1299.99</p>
+              <button
+                class="bg-orange-500 text-white py-2 px-4 rounded-full shadow-xl hover:bg-orange-600 border border-white/20 shadow-3xl"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="group bg-white/70 backdrop-blur-md rounded-2xl overflow-hidden border border-white/20 shadow-xl hover:shadow-2xl transition-all duration-300"
+          >
+          <div>
+            <img
+              src="https://unsplash.com/photos/KaMupNSSQJI"
+              class="w-full h-64"
+              alt=""
+            />
+             <p class="absolute top-4 left-4 bg-orange-500 text-white rounded-full px-4 py-1">New</p>
+            <p class="absolute top-4 left-23 bg-gray-500 text-white rounded-full px-4 py-1">Out of Stock</p>
+            </div>
+            <div class="p-6">
+              <h3 class="text-gray-600 text-xl mb-2">Industrial Bed Frame</h3>
+              <p class="text-gray-600 mb-4">
+                Industrial-style bed frame with iron piping and solid wood
+                slats.
+              </p>
+            </div>
+            <div class="flex items-center justify-between px-6 pb-4">
+              <p class="text-2xl text-orange-500">$899.99</p>
+              <button
+                class="bg-gray-400 text-white py-2 px-4 rounded-full shadow-xl hover:bg-gray-500 border border-white/20 shadow-3xl"
+              >
+                Out of Stock
+              </button>
+            </div>
+          </div>
+          <div
+            class="group bg-white/70 backdrop-blur-md rounded-2xl overflow-hidden border border-white/20 shadow-xl hover:shadow-2xl transition-all duration-300"
+          >
+          <div>
+            <img
+              src="https://unsplash.com/photos/KaMupNSSQJI"
+              class="w-full h-64"
+              alt=""
+            />
+             <p class="absolute top-4 left-4 bg-blue-500 text-white rounded-full px-4 py-1">Popular</p>
+            </div>
+            <div class="p-6">
+              <h3 class="text-gray-600 text-xl mb-2">Modern Glass Desk</h3>
+              <p class="text-gray-600 mb-4">
+                Sleek glass desk with powder-coated steel frame. Perfect for
+                modern.
+              </p>
+            </div>
+            <div class="flex items-center justify-between px-6 pb-4">
+              <p class="text-2xl text-orange-500">$599.99</p>
+              <button
+                class="bg-orange-500 text-white py-2 px-4 rounded-full shadow-xl hover:bg-orange-600 border border-white/20 shadow-3xl"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="group bg-white/70 backdrop-blur-md rounded-2xl overflow-hidden border border-white/20 shadow-xl hover:shadow-2xl transition-all duration-300"
+          >
+          <div>
+            <img
+              src="https://unsplash.com/photos/KaMupNSSQJI"
+              class="w-full h-64"
+              alt=""
+            />
+             <p class="absolute top-4 left-4 bg-blue-500 text-white rounded-full px-4 py-1">Popular</p>
+            </div>
+            <div class="p-6">
+              <h3 class="text-gray-600 text-xl mb-2">Floating Shelf Set</h3>
+              <p class="text-gray-600 mb-4">
+                Set of three floating shelves in premium walnut finish.
 
+              </p>
+            </div>
+            <div class="flex items-center justify-between px-6 pb-4">
+              <p class="text-2xl text-orange-500">$149.99</p>
+              <button
+                class="bg-orange-500 text-white py-2 px-4 rounded-full shadow-xl hover:bg-orange-600 border border-white/20 shadow-3xl"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="group bg-white/70 backdrop-blur-md rounded-2xl overflow-hidden border border-white/20 shadow-xl hover:shadow-2xl transition-all duration-300"
+          >
+          <div>
+            <img
+              src="https://unsplash.com/photos/KaMupNSSQJI"
+              class="w-full h-64"
+              alt=""
+            /> <p class="absolute top-4 left-4 bg-blue-500 text-white rounded-full px-4 py-1">Popular</p>
+            </div>
+            <div class="p-6">
+              <h3 class="text-gray-600 text-xl mb-2">
+                Scandinavian Dining Table
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Expanding dining table with Scandinavian design principles.
+              </p>
+            </div>
+            <div class="flex items-center justify-between px-6 pb-4">
+              <p class="text-2xl text-orange-500">$799.99</p>
+              <button
+                class="bg-orange-500 text-white py-2 px-4 rounded-full shadow-xl hover:bg-orange-600 border border-white/20 shadow-3xl"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-20 px-10 bg-linear-to-br from-gray-50 to-gray-100">
+        <div>
+          <div class="mb-16">
+            <h1 class="text-4xl underline decoration-orange-500 text-center mb-4">Get In Touch</h1>
+            <p class="text-center text-xl max-w-2xl text-gray-500 mx-auto">Have questions about our furniture? Need design advice? We'd love to hear from you.</p>
+          </div>
+          <div class="flex px-20">
+            <div class="w-full">
+              <p class="text-2xl font-light mb-4">Contact Information</p>
+              <a href="test123@gmail.com" class="shadow-2xl flex gap-6 items-center py-4 rounded-2xl pl-3 w-[40%] border border-white mb-6">
+                <img src="" alt="" class="w-10 h-10 rounded-full bg-orange-200 hover:bg-orange-500 ">
+                <div>
+                <p>Email</p>
+                <p class="text-gray-500">test123@gmail.com</p>
+                </div>
+              </a>
+              <a href="test123@gmail.com" class="shadow-2xl flex gap-6 items-center py-4 rounded-2xl pl-3 w-[40%] border border-white mb-6">
+                <img src="" alt="" class="w-10 h-10 rounded-full bg-orange-200 hover:bg-orange-500 ">
+                <div>
+                <p>Phone</p>
+                <p class="text-gray-500">+1 (555) 123-4567</p>
+                </div>
+              </a>
+              <a href="" class="shadow-2xl flex gap-6 items-center py-4 rounded-2xl pl-3 w-[40%] border border-white mb-6">
+                <img src="" alt="" class="w-10 h-10 rounded-full bg-orange-200 hover:bg-orange-500 ">
+                <div>
+                <p>Visit Us</p>
+                <p class="text-gray-500">123 Design Street, Creative City</p>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </div>
